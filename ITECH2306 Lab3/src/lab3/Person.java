@@ -13,6 +13,7 @@ public class Person {
 	String address; // address of person
 	String postcode; // postcode of person's address
 	Animal pet; // associate a pet that is an Animal object with the Person
+	Course course;
 	
 	
 	// constructor - create Person given name, address and a Pet object
@@ -78,6 +79,10 @@ public class Person {
 		this.pet = _pet;
 		}
 	
+	
+	public void enrolInCourse(Course course) {
+		this.course = course;
+	}
 	
 	
 	@Override

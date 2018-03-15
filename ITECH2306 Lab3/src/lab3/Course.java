@@ -10,7 +10,6 @@ public class Course {
 	private int Days;
 	private String Name;
 	private double Price;
-	private Person Student;
 
 	public Course(){
 
@@ -24,9 +23,7 @@ public class Course {
 			Days = Length;
 	}
 	
-	public String toString () {
-		System.out.println("Name:" + Name);
-		System.out.println("Length: " + Days);
-		System.out.println("Price" + Price);
+	public String toString() {
+		return "Name: " + Name + "Length: " + Days + "Price: " + Price;
 	}
 }//end Course
