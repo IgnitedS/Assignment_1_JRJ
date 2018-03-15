@@ -1,11 +1,10 @@
-package System;
-
 
 /**
- * @author 30331671
- * @version 1.0
- * @created 15-Mar-2018 11:54:50 AM
+ * Jamii DickWiggles
+ * Nine Harakiri
  */
+package lab3;
+
 public class Course {
 
 	private int Days;
@@ -20,7 +19,14 @@ public class Course {
 	public void finalize() throws Throwable {
 
 	}
-	public boolean IsRightLength(){
-		return false;
+	public void setDays (int Length){
+		if (Length >= 1 || Length <= 10)
+			Days = Length;
+	}
+	
+	public String toString () {
+		System.out.println("Name:" + Name);
+		System.out.println("Length: " + Days);
+		System.out.println("Price" + Price);
 	}
 }//end Course

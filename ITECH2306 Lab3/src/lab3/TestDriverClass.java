@@ -1,5 +1,6 @@
 /**
- * 
+ *Jamii DickWiggles
+ *Nine Harakiri 
  */
 package lab3;
 
